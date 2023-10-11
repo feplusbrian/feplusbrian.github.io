@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Say Juice!</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- Theme Start
+    <button id="theme-toggle">Toggle Dark Theme</button>
+    <button id="theme-toggle">
+        <span class="dark-mode-icon">🌙</span>
+        <span class="light-mode-icon">☀️</span>
+    </button> -->
+        <!-- Theme End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Say<span>Juice!</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"> <i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"> <i data-feather="shopping-cart"></i></a>
+        <a href="#" id="juice-menu"> <i data-feather="menu"></i></a>
+        <!-- <a href="#" class="bulan" id="moon"> <i data-feather="moon"></i></a>
+        <a href="#" class="matahari" id="sun"> <i data-feather="sun"></i></a> -->
+      </div>
+    </nav>
+
+    <!-- Search Form Start
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here . . .">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div> -->
+    <!-- Search Form End -->
+
+    <!-- Shopping Cart start -->
+    <!-- <div class="shopping-cart">
+      <div class="cart-item">
+        <img src="..img/menu/Jus Alpukat.jpg" alt="Product 1"width="300" height="200">
+        <div class="item-detail">
+          <h3>Avocado Fresh juice</h3>
+          <div class="item-price">IDR 15K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="..img/menu/Jus Mangga.jpg" alt="Product 2"width="300" height="200">
+        <div class="item-detail">
+          <h3>Happy Manggo Juice</h3>
+          <div class="item-price">IDR 12K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="..img/menu/Jus tomat.jpg" alt="Product 3"width="300" height="200">
+        <div class="item-detail">
+          <h3>Healthy Red Juice</h3>
+          <div class="item-price">IDR 12K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+    </div> -->
+    <!-- Shopping Cart end -->
+
+    <!-- Navbar End -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="Home">
+      <div class="mask-container">
+      <main class="content" <img src="..img/header-bg.jpeg.jpeg">
+        <h1>Mari nikmati segelas <span>jus</span></h1>
+        <p>Dengan segelas jus dapat membuat tubuhmu terasa segar.</p>
+        <a href="#" class="cta">Beli sekarang</a>
+      </main>
+    </div>
+  </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang&nbsp;</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="..img/tentang-kami.jpg" width="1200" height="800" alt="" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih jus kami?</h3>
+          <p>
+            Toko ini telah dibuka sejak tahun 2020 dan menjadi pilihan utama
+            bagi para pencinta jus, Karena buah yang kami pilih berkualitas dan
+            segar, harga sangat ekonomis serta memiliki cita rasa yang cocok di
+            lidah.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Menu Section start -->
+    <section id="menu" class="menu">
+      <h2><span>Menu&nbsp;</span> Kami</h2>
+
+      <div class="row">
+        <div class="menu-card">
+          <img
+            src="..img/menu/Jus Alpukat.jpg"
+            alt="Jus_alpukat"
+            class="menu-card-img"
+            width="200"
+            height="200"
+          />
+          <h3 class="menu-card-title">Avocado Fresh Juice</h3>
+          <p class="menu-card-price">IDR 15K</p>
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+           <div class="item-detail-button">
+              <a href="#"class="item-detail-button"><i data-feather="eye"></i></a>
+            </div>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img
+            src="..img/menu/Jus Naga.jpg"
+            alt="Jus_naga"
+            class="menu-card-img"
+            width="200"
+            height="200"
+          />
+          <h3 class="menu-card-title">Dragon Fruit Juice</h3>
+          <p class="menu-card-price">IDR 18K</p>
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+           <div class="item-detail-button2">
+              <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+           </div>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img
+            src="..img/menu/Jus Stoberi.jpg"
+            alt="Jus_stoberi"
+            class="menu-card-img"
+            width="200"
+            height="200"
+          />
+          <h3 class="menu-card-title">Red Strawberry Juice</h3>
+          <p class="menu-card-price">IDR 15K</p>
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+        <div class="item-detail-button3">
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img
+            src="..img/menu/Jus Mangga.jpg"
+            alt="Jus_mangga"
+            class="menu-card-img"
+            width="200"
+            height="200"
+          />
+          <h3 class="menu-card-title">Happy Manggo Juice</h3>
+          <p class="menu-card-price">IDR 12K</p>
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <div class="item-detail-button4">
+              <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+        </div>
+         <div class="menu-card">
+          <img
+            src="..img/menu/cherry.jpg"
+            alt="Jus_mangga"
+            class="menu-card-img"
+            width="200"
+            height="200"
+          />
+          <h3 class="menu-card-title">Boom Cherry Juice</h3>
+          <p class="menu-card-price">IDR 17K</p>
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <div class="item-detail-button5">
+              <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img
+            src="..img/menu/Jus Wortel.jpg"
+            alt="Jus_wortel"
+            class="menu-card-img"
+            width="200"
+            height="200"
+          />    
+          <h3 class="menu-card-title">Orange Carrot Juice</h3>
+          <p class="menu-card-price">IDR 13K</p>
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <div class="item-detail-button6">
+              <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img
+            src="..img/menu/Jus Tomat.jpg"
+            alt="Jus_tomat"
+            class="menu-card-img"
+            width="200"
+            height="200"
+          />
+          <h3 class="menu-card-title">Healthy Red Juice</h3>
+          <p class="menu-card-price">IDR 12K</p>
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <div class="item-detail-button7">
+              <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img
+            src="..img/menu/Jus Bayam.jpg"
+            alt="Jus_bayam"
+            class="menu-card-img"
+            width="200"
+            height="200"
+          />
+          <h3 class="menu-card-title">Green Spinach Juice</h3>
+          <p class="menu-card-price">IDR 12K</p>
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <div class="item-detail-button8">
+              <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section end -->
+
+      <!-- Products Section start -->
+ <!-- <section class="products" id="products">
+    <h2><span>Produk Unggulan</span> Kami</h2>
+    <div class="row">
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="img/products/pro1.jpg" alt="Product 1" width="300" height="200">
+        </div>
+        <div class="product-content">
+          <h3>Walls Viennetta </h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 50K</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="img/products/pro2.jpg" alt="Product 1"width="300" height="200">
+        </div>
+        <div class="product-content">
+          <h3>Haagen Dazs Strawberry </h3>
+          <div class="product-stars">
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 40K <span>IDR 65K</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="img/products/pro3.jpg" alt="Product 1"width="300" height="200">
+        </div>
+        <div class="product-content">
+          <h3>Diamond Brookfarm </h3>
+          <div class="product-stars">
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 35K <span>IDR 55K</span></div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- Products Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <div class="content">
+      <p>Telepon: 08912332198</p>
+      <p>Email: say.juice@gmail.com</p>
+      </div>
+      <div class="row"> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.787305174909!2d106.8997700850919!3d-6.291661555227655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e15d8e7785%3A0xd8c284704ed8046c!2sSMK%20NEGERI%2066%20Jakarta%20Timur!5e0!3m2!1sid!2sid!4v1695561955240!5m2!1sid!2sid"  allowfullscreen=" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="Nomor telepon" />
+          </div>
+          <button type="submit" class="btn">kirim pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">Kelompok 7</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+ <!-- Modal Box Item Detail start -->
+  <div class="modal" id="item-detail-modal">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <div class="product-content">
+          <h3>Avocado Fresh Juice - Jus alpukat</h3>
+          <p>Manfaatnya: Mengontrol kadar gula darah, menjaga kulit agar tetap sehat, dan untuk kesehatan tulang.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal2" id="item-detail-modal2">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <div class="product-content">
+          <h3>Dragon Fruit Juice - Jus naga</h3>
+          <p>Manfaatnya: Menjaga daya tahan tubuh, mencegah dehidrasi, dan membantu mengontrol kadar gula darah.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal3" id="item-detail-modal3">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <div class="product-content">
+          <h3>Red Strawberry juice - Jus Stoberi</h3>
+          <p>Manfaatnya: Menjaga kesehatan jantung, meningkatkan daya tahan tubuh, mencegah katarak, dan mencegah terjadinya peradangan.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal4" id="item-detail-modal4">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <div class="product-content">
+          <h3>Happy Manggo Juice - Jus mangga</h3>
+          <p>Manfaatnya: Mencegah dan mengatasi amenia, menjaga perfoma karadio tubuh, menjaga kesehatan kulit, dan menurunkan kadar kolesterol jahat.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal5" id="item-detail-modal5">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <div class="product-content">
+          <h3>Boom Cherry Juice - Jus ceri</h3>
+          <p>Manfaatnya: Mengurangi risiko hipertensi dan stroke, mengatasi insomnia, dan mencegah terjadinya peradangan.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal6" id="item-detail-modal6">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <div class="product-content">
+          <h3>Orange Carrot Juice - Jus wortel</h3>
+          <p>Manfaatnya: Membantu mengurangi penyakit kardiovaskular, meningkatkan penglihatan, membantu mencegah kram menstruasi masalah perut.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal7" id="item-detail-modal7">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <div class="product-content">
+          <h3>Heatlhy Red Juice - Jus tomat</h3>
+          <p>Manfaatnya: Menurunkan kolesterol, mencegah penyakit diabetes, mencegah stroke.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal8" id="item-detail-modal8">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <div class="product-content">
+          <h3>Green Spinach Juice - Jus bayam</h3>
+          <p>Manfaatnya: Menurukan tekanan darah, melancarkan aliran darah, membantu kadar alkali atau basa dalam tubuh.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Box Item Detail end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

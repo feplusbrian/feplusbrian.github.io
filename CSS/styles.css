@@ -1,0 +1,13 @@
+/* Define a class for the dark theme */
+.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-theme h1 {
+  color: #ff9900;
+}
+
+.dark-theme a {
+  color: #3498db;
+}
